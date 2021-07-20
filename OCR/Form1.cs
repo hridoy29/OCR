@@ -22,7 +22,7 @@ namespace OCR
         private void btnBrowse_Click(object sender, EventArgs e)
         {
             OpenFileDialog file = new OpenFileDialog();
-            
+            file.Filter = "*pdf files|*.pdf";
             if (file.ShowDialog() == DialogResult.OK)
             {
                 
@@ -39,7 +39,7 @@ namespace OCR
              
              
             var ocr = new AutoOcr();
-            textBox1.Text = ocr.ReadPdf(path).Text.ToString();
+            textBox1.Text = ocr.ReadPdf(pdfViewer1.FileName).Text.ToString();
 
         }
     }

@@ -37,10 +37,10 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(746, 48);
+            this.textBox1.Location = new System.Drawing.Point(748, 63);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(502, 594);
+            this.textBox1.Size = new System.Drawing.Size(502, 501);
             this.textBox1.TabIndex = 1;
             // 
             // openFileDialog
@@ -49,7 +49,7 @@
             // 
             // btnBrowse
             // 
-            this.btnBrowse.Location = new System.Drawing.Point(587, 663);
+            this.btnBrowse.Location = new System.Drawing.Point(185, 580);
             this.btnBrowse.Name = "btnBrowse";
             this.btnBrowse.Size = new System.Drawing.Size(150, 36);
             this.btnBrowse.TabIndex = 2;
@@ -59,9 +59,9 @@
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(1116, 663);
+            this.btnSubmit.Location = new System.Drawing.Point(380, 581);
             this.btnSubmit.Name = "btnSubmit";
-            this.btnSubmit.Size = new System.Drawing.Size(130, 36);
+            this.btnSubmit.Size = new System.Drawing.Size(130, 34);
             this.btnSubmit.TabIndex = 3;
             this.btnSubmit.Text = "Submit";
             this.btnSubmit.UseVisualStyleBackColor = true;
@@ -77,7 +77,7 @@
             this.pdfViewer1.MultiPagesThreshold = 60;
             this.pdfViewer1.Name = "pdfViewer1";
             this.pdfViewer1.OnRenderPageExceptionEvent = null;
-            this.pdfViewer1.Size = new System.Drawing.Size(730, 633);
+            this.pdfViewer1.Size = new System.Drawing.Size(730, 552);
             this.pdfViewer1.TabIndex = 4;
             this.pdfViewer1.Text = "pdfViewer1";
             this.pdfViewer1.Threshold = 60;
